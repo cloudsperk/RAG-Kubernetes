@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.pyo
+*.pyd
+*.pyd
+*.env
+*.venv
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+.python-version
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+*.egg
+*.whl
+
+# FastAPI / API server
+*.log
+logs/
+
+# Django stuff (not in use but harmless)
+*.sqlite3
+*.db
+
+# Virtual environments
+.Python
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Cache
+.cache/
+.mypy_cache/
+.pytest_cache/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Secret/local config
+.env
+.env.*
+*.local
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dylib
+*.dll
+
+# MyPy
+.mypy_cache/
+
+# Pyre
+.pyre/
+
+# Coverage
+coverage.xml
+htmlcov/
+.coverage
+.coverage.*
+
+# FastAPI / RAG-specific artifacts
+samples/outputs/
+models/
+vectors/
+
+# Misc
+*.sqlite
+*.db-journal
